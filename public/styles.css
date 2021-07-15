@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  background-image: url("https://preview.redd.it/d68js7ngv4261.png?width=3840&format=png&auto=webp&s=5e584a3c9a226162af2e6c8229b4752dfe6a6d27");
+  background-size: 900px;
+  padding: 0 16px;
+}
+
+
+header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  background-color: black;
+  margin: auto -16px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+header h1 {
+  margin-top: 37px;
+  font-family: "Sora", sans-serif;
+  color: red;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.delete {
+  background-color: black;
+}
+footer p {
+  color: #ccc;
+}
+.note {
+  background: black;
+  border-radius: 7px;
+  box-shadow: 0 1px 7px rgb(242 50 50);
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  color: red;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  color: red;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: red;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: black;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 7px rgb(242 50 50);
+}
+form.create-note input,
+form.create-note textarea {
+  background-color: black;
+  color: red;
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: red;
+  color: #040404;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
